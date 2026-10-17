@@ -1,0 +1,25 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> estudai-api@1.0.0 test
+> node --test test/*.test.js
+
+✔ POST retorna 201, Location recuperavel e links (35.638869ms)
+✔ GET lista array vazio sem alterar dados e informa cache (4.03401ms)
+✔ GET repetido preserva recurso (6.981628ms)
+✔ GET e PUT inexistentes retornam 404 (7.86201ms)
+✔ UUID invalido retorna 400 (5.705742ms)
+✔ payloads vazios, tipos errados, data impossivel e campos extras retornam 400 (11.056129ms)
+✔ JSON malformado retorna 400 (3.166207ms)
+✔ PUT exige representacao completa e e idempotente (6.362208ms)
+✔ DELETE repetido retorna 204 sem corpo e GET posterior 404 (5.158019ms)
+✔ erro interno retorna 500 sem vazar mensagem (2.273756ms)
+✔ POST repetido cria recursos distintos (3.139556ms)
+✔ GET de rota verbal nao remove recursos (2.798344ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 260.206886
