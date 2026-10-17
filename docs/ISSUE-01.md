@@ -77,8 +77,8 @@ Node.js + Express; routes -> controllers -> repositories -> cliente Supabase (co
 ## Evidencias e acompanhamento
 - [x] Contrato, cenarios BDD, backend em camadas e AGENTS.md preparados.
 - [x] SQL de demonstracao e teste de integracao real preparados.
-- [ ] Executar SQL em projeto Supabase e registrar URL publica do projeto (sem chaves).
-- [ ] Executar npm run test:cloud e registrar resultado real.
+- [x] Tabela criada no Supabase: https://vdifoqndfyjascmmgbgx.supabase.co (projeto atividade-rest, regiao Sao Paulo).
+- [x] Teste real executado: 1 aprovado, 0 falhas. Evidencia em evidencias/nuvem.txt. RLS ativo; verificacao de assessores sem avisos de seguranca.
 - [ ] Publicar este repositorio e usar este texto na primeira Issue (#1).
 - [ ] Registrar link direto da Issue no Classroom e marcar como concluida.
 

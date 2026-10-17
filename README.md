@@ -34,7 +34,7 @@ O contrato completo e os exemplos JSON estão em [docs/ISSUE-01.md](docs/ISSUE-0
 - `npm test`: verifica o contrato HTTP localmente, sem acessar o banco.
 - `npm run test:cloud`: verifica a persistência real no Supabase configurado no `.env`.
 
-Os 12 testes locais passaram. A evidência está em [evidencias/testes.txt](evidencias/testes.txt).
+Os 12 testes locais e o teste de integração real passaram. Evidências: [testes locais](evidencias/testes.txt) e [persistência no Supabase](evidencias/nuvem.txt).
 
 ## Organização
 
