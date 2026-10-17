@@ -1,0 +1,12 @@
+# Regras do Estudai
+- Autor e unico integrante: Marcos Gabriel. Disciplina TEC.1053, IFPI.
+- Rotas em substantivos plurais: /api/v1/tarefas. GET nunca altera dados.
+- POST responde 201 com Location; PUT substitui todos os campos editaveis e e idempotente.
+- DELETE responde 204 sem corpo, inclusive quando o UUID valido ja esta ausente.
+- Validacao responde 400; ausente no GET/PUT, 404; falha interna, 500 sem detalhes privados.
+- Arquitetura: config, repositories, controllers, routes; app separado do servidor.
+- Persistencia real exclusivamente Supabase pelo SDK HTTPS e chave anon; sem service_role.
+- Sem sessoes do usuario no servidor. Repositorio em memoria somente como dublê nos testes.
+- .env nunca versionado. .env.example contem apenas placeholders.
+- Manter contrato, SQL CHECK e testes coerentes. Nunca declarar evidencia de nuvem sem executa-la.
+- Esta fase e uma demonstracao publica com dados ficticios; JWT e isolamento por usuario sao evolucao da Aula 11.
